@@ -27,7 +27,7 @@ ruleset=🚀 节点选择,proxy_gfwlist,https://raw.githubusercontent.com/Karing
 ruleset=🎯 全球直连,china_domain,https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/ACL4SSR/ChinaDomain.srs,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
 ruleset=🎯 全球直连,china_company_ip,https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/ACL4SSR/ChinaCompanyIp.srs,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
 ruleset=🎯 全球直连,download,https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/ACL4SSR/Download.srs,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list
-ruleset=🎯 全球直连,geoip_cn,https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/geo/geoip/cn.srs,https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/cn-lite.mrs
+ruleset=🎯 全球直连,geoip_cn,https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/cnip.srs,https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/cn-lite.mrs
 
 # GEOIP/MATCH 规则
 ruleset=🐟 漏网之鱼,MATCH
