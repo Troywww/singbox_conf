@@ -30,7 +30,6 @@ ruleset=🎯 全球直连,download,https://raw.githubusercontent.com/KaringX/kar
 ruleset=🎯 全球直连,geoip_cn,https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/geo/geoip/cn.srs,https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/cn-lite.mrs
 
 # GEOIP/MATCH 规则
-ruleset=🎯 全球直连,GEOIP{CN}
 ruleset=🐟 漏网之鱼,MATCH
 
 ;设置分组标志位
