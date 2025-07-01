@@ -1,5 +1,5 @@
 # 优先 SRS（sing-box），Clash 用 Clash 规则格式
-ruleset=🎯 全球直连,local_area_network,https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/ACL4SSR/LocalAreaNetwork.srs,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
+ruleset=🎯 全球直连,local_area_network,https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/private.srs,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
 ruleset=🎯 全球直连,unban,https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/ACL4SSR/UnBan.srs,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
 ruleset=🛑 广告拦截,banad,https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/ACL4SSR/BanAD.srs,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
 ruleset=🆎 AdBlock,baneasylist,https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/ACL4SSR/BanEasyList.srs,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyList.list
