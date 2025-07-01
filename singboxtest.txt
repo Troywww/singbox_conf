@@ -12,14 +12,14 @@ ruleset=Ⓜ️ 微软Bing,https://raw.githubusercontent.com/KaringX/karing-rules
 ruleset=Ⓜ️ 微软云盘,https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/ACL4SSR/OneDrive.srs#srs,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/OneDrive.list
 ruleset=Ⓜ️ 微软服务,https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/ACL4SSR/Microsoft.srs#srs,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list
 ruleset=🍎 苹果服务,https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/ACL4SSR/Apple.srs#srs,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list
-ruleset=📲 电报消息,https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/ACL4SSR/Telegram.srs#srs,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
+rule=📲 电报消息,DOMAIN-SUFFIX{t.me,tdesktop.com,telegra.ph,telegram.me,telegram.org,telesco.pe};IP-CIDR{91.108.0.0/16|no-resolve,95.161.64.0/20|no-resolve,109.239.140.0/24|no-resolve,149.154.160.0/20|no-resolve};IP-CIDR6{2001:67c:4e8::/48|no-resolve,2001:b28:f23d::/48|no-resolve,2001:b28:f23f::/48|no-resolve}
 ruleset=💬 OpenAi,https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/ACL4SSR/OpenAi.srs#srs,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list
 ruleset=🎮 游戏平台,https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/ACL4SSR/Epic.srs#srs,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Epic.list
 ruleset=🎮 游戏平台,https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/ACL4SSR/Origin.srs#srs,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Origin.list
 ruleset=🎮 游戏平台,https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/ACL4SSR/Sony.srs#srs,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Sony.list
 ruleset=🎮 游戏平台,https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/ACL4SSR/Steam.srs#srs,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Steam.list
 ruleset=🎮 游戏平台,https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/ACL4SSR/Nintendo.srs#srs,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Nintendo.list
-ruleset=📹 油管视频,https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/ACL4SSR/YouTube.srs#srs,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list
+ruleset=📹 油管视频,GEOSITE{youtube}
 ruleset=🎥 奈飞视频,https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/ACL4SSR/Netflix.srs#srs,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list
 ruleset=🌏 国内媒体,https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/ACL4SSR/ChinaMedia.srs#srs,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list
 ruleset=🌍 国外媒体,https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/ACL4SSR/ProxyMedia.srs#srs,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
@@ -27,7 +27,37 @@ ruleset=🚀 节点选择,https://raw.githubusercontent.com/KaringX/karing-rules
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/ACL4SSR/ChinaDomain.srs#srs,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/ACL4SSR/ChinaCompanyIp.srs#srs,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/ACL4SSR/Download.srs#srs,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/geo/geoip/cn.srs#srs,https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/cn-lite.mrs#mrs
 
 # GEOIP/MATCH 规则
 ruleset=🎯 全球直连,GEOIP{CN}
 ruleset=🐟 漏网之鱼,MATCH
+
+;设置分组标志位
+custom_proxy_group=🚀 节点选择`select`[]✈️ 专线自动`[]📡 专线手动`[]🌐 临时自动`[]🔄 临时手动`[]🌏 亚洲节点`[]🌍 欧美节点`[]🌎 未知区域`[]DIRECT
+custom_proxy_group=✈️ 专线自动`url-test`^(?!.*(港|香港|HK|Hong Kong)).*$(专线|特线|普线)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=📡 专线手动`select`(专线|特线|普线)
+custom_proxy_group=📡 AI专线`url-test`(专线|特线)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🌐 临时自动`url-test`^(?!.*(特线|专线|普线)).*$`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🔄 临时手动`select`^(?!.*(特线|专线|普线)).*$
+custom_proxy_group=🌏 亚洲节点`url-test`^(?!.*(特线|专线|普线)).*$(港|HK|Hong Kong|日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan|台|新北|彰化|TW|Taiwan|新加坡|坡|狮城|SG|Singapore|KR|Korea|KOR|首尔|韩|韓)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🌍 欧美节点`url-test`^(?!.*(特线|专线|普线)).*$(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|Europe|US|United States|DE|德|德国|FR|法|法国|GB|英|英国)`http://www.gstatic.com/generate_204`300,,150
+custom_proxy_group=🌎 未知区域`select`^(?!.*(特线|专线|普线|港|HK|Hong Kong|日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan|台|新北|彰化|TW|Taiwan|新加坡|坡|狮城|SG|Singapore|KR|Korea|KOR|首尔|韩|韓|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States|DE|德|德国|FR|法|法国|Europe|GB|英|英国)).*$
+custom_proxy_group=💰 加密货币`select`[]🚀 节点选择`[]✈️ 专线自动`[]📡 专线手动`[]DIRECT
+custom_proxy_group=📲 电报消息`select`[]🚀 节点选择`[]✈️ 专线自动`[]📡 专线手动`[]🌐 临时自动`[]🔄 临时手动`[]🌏 亚洲节点`[]🌍 欧美节点`[]🌎 未知区域`[]DIRECT
+custom_proxy_group=💬 OpenAi`select`[]📡 AI专线`[]✈️ 专线自动`[]📡 专线手动`[]DIRECT
+custom_proxy_group=📹 油管视频`select`[]🚀 节点选择`[]✈️ 专线自动`[]📡 专线手动`[]🌐 临时自动`[]🔄 临时手动`[]🌏 亚洲节点`[]🌍 欧美节点`[]🌎 未知区域`[]DIRECT
+custom_proxy_group=🎥 奈飞视频`select`[]🚀 节点选择`[]✈️ 专线自动`[]📡 专线手动`[]🌐 临时自动`[]🔄 临时手动`[]🌏 亚洲节点`[]🌍 欧美节点`[]🌎 未知区域`[]DIRECT
+custom_proxy_group=🌍 国外媒体`select`[]🚀 节点选择`[]✈️ 专线自动`[]📡 专线手动`[]🌐 临时自动`[]🔄 临时手动`[]🌏 亚洲节点`[]🌍 欧美节点`[]🌎 未知区域`[]DIRECT
+custom_proxy_group=🌏 国内媒体`select`[]DIRECT`[]🚀 节点选择`[]✈️ 专线自动`[]📡 专线手动`[]🌐 临时自动`[]🔄 临时手动`[]🌏 亚洲节点`[]🌍 欧美节点`[]🌎 未知区域
+custom_proxy_group=📢 谷歌FCM`select`[]DIRECT`[]🚀 节点选择`[]✈️ 专线自动`[]📡 专线手动`[]🌐 临时自动`[]🔄 临时手动`[]🌏 亚洲节点`[]🌍 欧美节点`[]🌎 未知区域
+custom_proxy_group=Ⓜ️ 微软Bing`select`[]DIRECT`[]🚀 节点选择`[]✈️ 专线自动`[]📡 专线手动`[]🌐 临时自动`[]🔄 临时手动`[]🌏 亚洲节点`[]🌍 欧美节点`[]🌎 未知区域
+custom_proxy_group=Ⓜ️ 微软云盘`select`[]DIRECT`[]🚀 节点选择`[]✈️ 专线自动`[]📡 专线手动`[]🌐 临时自动`[]🔄 临时手动`[]🌏 亚洲节点`[]🌍 欧美节点`[]🌎 未知区域
+custom_proxy_group=Ⓜ️ 微软服务`select`[]DIRECT`[]🚀 节点选择`[]✈️ 专线自动`[]📡 专线手动`[]🌐 临时自动`[]🔄 临时手动`[]🌏 亚洲节点`[]🌍 欧美节点`[]🌎 未知区域
+custom_proxy_group=🍎 苹果服务`select`[]DIRECT`[]🚀 节点选择`[]✈️ 专线自动`[]📡 专线手动`[]🌐 临时自动`[]🔄 临时手动`[]🌏 亚洲节点`[]🌍 欧美节点`[]🌎 未知区域
+custom_proxy_group=🎮 游戏平台`select`[]DIRECT`[]🚀 节点选择`[]✈️ 专线自动`[]📡 专线手动`[]🌐 临时自动`[]🔄 临时手动`[]🌏 亚洲节点`[]🌍 欧美节点`[]🌎 未知区域
+custom_proxy_group=🎯 全球直连`select`[]DIRECT`[]🚀 节点选择`[]✈️ 专线自动`[]📡 专线手动`[]🌐 临时自动`[]🔄 临时手动`[]🌏 亚洲节点`[]🌍 欧美节点`[]🌎 未知区域
+custom_proxy_group=🛑 广告拦截`select`[]REJECT`[]DIRECT
+custom_proxy_group=🆎 AdBlock`select`[]REJECT`[]DIRECT
+custom_proxy_group=🐟 漏网之鱼`select`[]🚀 节点选择`[]✈️ 专线自动`[]📡 专线手动`[]🌐 临时自动`[]🔄 临时手动`[]🌏 亚洲节点`[]🌍 欧美节点`[]🌎 未知区域`[]DIRECT
+;设置分组标志位
