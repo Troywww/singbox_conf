@@ -29,8 +29,6 @@ ruleset=📺 Disney+,disney,https://github.com/DustinWin/ruleset_geodata/release
 ruleset=📺 AppleTV,appletv,https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/appletv.srs,https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/appletv.mrs
 # 国外媒体
 ruleset=🌍 国外媒体,media,https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/media.srs,https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/media.mrs
-# 国内媒体
-ruleset=🌏 国内媒体,chinamedia,https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/chinamedia.srs,https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/chinamedia.mrs
 # 游戏平台
 ruleset=🎮 游戏平台,games,https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/games.srs,https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/games.mrs
 # 国内域名
@@ -57,7 +55,6 @@ custom_proxy_group=🎥 奈飞视频`select`[]🚀 节点选择`[]✈️ 专线�
 custom_proxy_group=📺 AppleTV,`select`[]🚀 节点选择`[]✈️ 专线自动`[]📡 专线手动`[]🌐 临时自动`[]🔄 临时手动`[]DIRECT
 custom_proxy_group=📺 Disney+,`select`[]🚀 节点选择`[]✈️ 专线自动`[]📡 专线手动`[]🌐 临时自动`[]🔄 临时手动`[]DIRECT
 custom_proxy_group=🌍 国外媒体`select`[]🚀 节点选择`[]✈️ 专线自动`[]📡 专线手动`[]🌐 临时自动`[]🔄 临时手动`[]DIRECT
-custom_proxy_group=🌏 国内媒体`select`[]🚀 节点选择`[]✈️ 专线自动`[]📡 专线手动`[]🌐 临时自动`[]🔄 临时手动`[]DIRECT
 custom_proxy_group=📢 谷歌服务`select`[]🚀 节点选择`[]✈️ 专线自动`[]📡 专线手动`[]🌐 临时自动`[]🔄 临时手动`[]DIRECT
 custom_proxy_group=Ⓜ️ 微软服务`select`[]🚀 节点选择`[]✈️ 专线自动`[]📡 专线手动`[]🌐 临时自动`[]🔄 临时手动`[]DIRECT
 custom_proxy_group=🍎 苹果服务`select`[]🚀 节点选择`[]✈️ 专线自动`[]📡 专线手动`[]🌐 临时自动`[]🔄 临时手动`[]DIRECT
