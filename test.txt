@@ -1,35 +1,32 @@
-# 优先 SRS（sing-box），Clash 用 Clash 规则格式
-ruleset=🎯 全球直连,local_area_network,https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/private.srs,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
-ruleset=🎯 全球直连,unban,https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/ACL4SSR/UnBan.srs,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
-ruleset=🛑 广告拦截,banad,https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/ACL4SSR/BanAD.srs,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
-ruleset=🆎 AdBlock,baneasylist,https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/ACL4SSR/BanEasyList.srs,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyList.list
-ruleset=🆎 AdBlock,baneasylistchina,https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/ACL4SSR/BanEasyListChina.srs,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list
-ruleset=📢 谷歌FCM,googlefcm,https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/ACL4SSR/GoogleFCM.srs,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list
-ruleset=💰 加密货币,crypto,https://raw.githubusercontent.com/Troywww/singbox_conf/refs/heads/main/rules_list/crypto.list
-ruleset=🎯 全球直连,googlecn,https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/ACL4SSR/GoogleCN.srs,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list
-ruleset=🎯 全球直连,steamcn,https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/ACL4SSR/SteamCN.srs,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list
-ruleset=Ⓜ️ 微软Bing,bing,https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/ACL4SSR/Bing.srs,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Bing.list
-ruleset=Ⓜ️ 微软云盘,onedrive,https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/ACL4SSR/OneDrive.srs,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/OneDrive.list
-ruleset=Ⓜ️ 微软服务,microsoft,https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/ACL4SSR/Microsoft.srs,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list
-ruleset=🍎 苹果服务,apple,https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/ACL4SSR/Apple.srs,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list
-ruleset=📲 电报消息,telegram,DOMAIN-SUFFIX{t.me,tdesktop.com,telegra.ph,telegram.me,telegram.org,telesco.pe};IP-CIDR{91.108.0.0/16|no-resolve,95.161.64.0/20|no-resolve,109.239.140.0/24|no-resolve,149.154.160.0/20|no-resolve};IP-CIDR6{2001:67c:4e8::/48|no-resolve,2001:b28:f23d::/48|no-resolve,2001:b28:f23f::/48|no-resolve}
-ruleset=💬 OpenAi,openai,https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/ACL4SSR/OpenAi.srs,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list
-ruleset=🎮 游戏平台,epic,https://fandai-git.869069.xyz/?url=https://github.com/KaringX/karing-ruleset/raw/refs/heads/sing/ACL4SSR/Epic.srs,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Epic.list
-ruleset=🎮 游戏平台,origin,https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/ACL4SSR/Origin.srs,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Origin.list
-ruleset=🎮 游戏平台,sony,https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/ACL4SSR/Sony.srs,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Sony.list
-ruleset=🎮 游戏平台,steam,https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/ACL4SSR/Steam.srs,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Steam.list
-ruleset=🎮 游戏平台,nintendo,https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/ACL4SSR/Nintendo.srs,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Nintendo.list
-ruleset=📹 油管视频,youtube,GEOSITE{youtube}
-ruleset=🎥 奈飞视频,netflix,https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/ACL4SSR/Netflix.srs,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list
-ruleset=🌏 国内媒体,china_media,https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/ACL4SSR/ChinaMedia.srs,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list
-ruleset=🌍 国外媒体,proxy_media,https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/ACL4SSR/ProxyMedia.srs,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
-ruleset=🚀 节点选择,proxy_gfwlist,https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/ACL4SSR/ProxyGFWlist.srs,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
-ruleset=🎯 全球直连,china_domain,https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/ACL4SSR/ChinaDomain.srs,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
-ruleset=🎯 全球直连,china_company_ip,https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/ACL4SSR/ChinaCompanyIp.srs,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
-ruleset=🎯 全球直连,download,https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/ACL4SSR/Download.srs,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list
-ruleset=🎯 全球直连,geoip_cn,https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/cnip.srs,https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/cn-lite.mrs
-
-# GEOIP/MATCH 规则
+# 局域网与私有网络
+ruleset=🎯 全球直连,privateip,https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/privateip.srs,https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/privateip.mrs
+# 广告拦截
+ruleset=🛑 广告拦截,ads,https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/ads.srs,https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/ads.mrs
+# Telegram
+ruleset=📲 电报消息,telegram,https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/telegramip.srs,https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/telegramip.mrs
+#加密货币
+ruleset=💰 加密货币,crypto,https://github.com/KaringX/karing-ruleset/raw/refs/heads/sing/ACL4SSR/Ruleset/Crypto.srs,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Ruleset/Crypto.list
+# 微软服务
+ruleset=Ⓜ️ 微软服务,microsoft-cn,https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/microsoft-cn.srs,https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/microsoft-cn.mrs
+# 苹果服务
+ruleset=🍎 苹果服务,apple-cn,https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/apple-cn.srs,https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/apple-cn.mrs
+# 谷歌服务
+ruleset=📢 谷歌服务,google-cn,https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/google-cn.srs,https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/google-cn.mrs
+# 油管
+ruleset=📹 油管视频,youtube,https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/youtube.srs,https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/youtube.mrs
+# 奈飞
+ruleset=🎥 奈飞视频,netflix,https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/netflix.srs,https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/netflix.mrs
+# 国外媒体
+ruleset=🌍 国外媒体,media,https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/media.srs,https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/media.mrs
+# 游戏平台
+ruleset=🎮 游戏平台,games,https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/games.srs,https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/games.mrs
+# 国内域名
+ruleset=🎯 全球直连,cn,https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/cn.srs,https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/cn.mrs
+# 国内IP
+ruleset=🎯 全球直连,cnip,https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/cnip.srs,https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/cnip.mrs
+# 代理（GFW/国外）
+ruleset=🚀 节点选择,proxy,https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/proxy.srs,https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/proxy.mrs
+#兜底
 ruleset=🐟 漏网之鱼,MATCH
 
 ;设置分组标志位
@@ -44,12 +41,11 @@ custom_proxy_group=🌍 欧美节点`url-test`^(?!.*(特线|专线|普线)).*$(�
 custom_proxy_group=🌎 未知区域`select`^(?!.*(特线|专线|普线|港|HK|Hong Kong|日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan|台|新北|彰化|TW|Taiwan|新加坡|坡|狮城|SG|Singapore|KR|Korea|KOR|首尔|韩|韓|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States|DE|德|德国|FR|法|法国|Europe|GB|英|英国)).*$
 custom_proxy_group=💰 加密货币`select`[]🚀 节点选择`[]✈️ 专线自动`[]📡 专线手动`[]DIRECT
 custom_proxy_group=📲 电报消息`select`[]🚀 节点选择`[]✈️ 专线自动`[]📡 专线手动`[]🌐 临时自动`[]🔄 临时手动`[]🌏 亚洲节点`[]🌍 欧美节点`[]🌎 未知区域`[]DIRECT
-custom_proxy_group=💬 OpenAi`select`[]📡 AI专线`[]✈️ 专线自动`[]📡 专线手动`[]DIRECT
 custom_proxy_group=📹 油管视频`select`[]🚀 节点选择`[]✈️ 专线自动`[]📡 专线手动`[]🌐 临时自动`[]🔄 临时手动`[]🌏 亚洲节点`[]🌍 欧美节点`[]🌎 未知区域`[]DIRECT
 custom_proxy_group=🎥 奈飞视频`select`[]🚀 节点选择`[]✈️ 专线自动`[]📡 专线手动`[]🌐 临时自动`[]🔄 临时手动`[]🌏 亚洲节点`[]🌍 欧美节点`[]🌎 未知区域`[]DIRECT
 custom_proxy_group=🌍 国外媒体`select`[]🚀 节点选择`[]✈️ 专线自动`[]📡 专线手动`[]🌐 临时自动`[]🔄 临时手动`[]🌏 亚洲节点`[]🌍 欧美节点`[]🌎 未知区域`[]DIRECT
 custom_proxy_group=🌏 国内媒体`select`[]DIRECT`[]🚀 节点选择`[]✈️ 专线自动`[]📡 专线手动`[]🌐 临时自动`[]🔄 临时手动`[]🌏 亚洲节点`[]🌍 欧美节点`[]🌎 未知区域
-custom_proxy_group=📢 谷歌FCM`select`[]DIRECT`[]🚀 节点选择`[]✈️ 专线自动`[]📡 专线手动`[]🌐 临时自动`[]🔄 临时手动`[]🌏 亚洲节点`[]🌍 欧美节点`[]🌎 未知区域
+custom_proxy_group=📢 谷歌服务`select`[]DIRECT`[]🚀 节点选择`[]✈️ 专线自动`[]📡 专线手动`[]🌐 临时自动`[]🔄 临时手动`[]🌏 亚洲节点`[]🌍 欧美节点`[]🌎 未知区域
 custom_proxy_group=Ⓜ️ 微软Bing`select`[]DIRECT`[]🚀 节点选择`[]✈️ 专线自动`[]📡 专线手动`[]🌐 临时自动`[]🔄 临时手动`[]🌏 亚洲节点`[]🌍 欧美节点`[]🌎 未知区域
 custom_proxy_group=Ⓜ️ 微软云盘`select`[]DIRECT`[]🚀 节点选择`[]✈️ 专线自动`[]📡 专线手动`[]🌐 临时自动`[]🔄 临时手动`[]🌏 亚洲节点`[]🌍 欧美节点`[]🌎 未知区域
 custom_proxy_group=Ⓜ️ 微软服务`select`[]DIRECT`[]🚀 节点选择`[]✈️ 专线自动`[]📡 专线手动`[]🌐 临时自动`[]🔄 临时手动`[]🌏 亚洲节点`[]🌍 欧美节点`[]🌎 未知区域
