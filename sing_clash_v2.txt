@@ -1,44 +1,44 @@
 ; 规则集部分，优先 SRS（sing-box），Clash 用 Clash 规则格式
 # FakeIP 过滤
-ruleset=🔒 FakeIP过滤,fakeip-filter,https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/fakeip-filter.srs#srs,https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/fakeip-filter.mrs#mrs
+ruleset=🔒 FakeIP过滤,fakeip-filter,https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/fakeip-filter.srs,https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/fakeip-filter.mrs
 # 局域网与私有网络
-ruleset=🎯 全球直连,privateip,https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/privateip.srs#srs,https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/privateip.mrs#mrs
+ruleset=🎯 全球直连,privateip,https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/privateip.srs,https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/privateip.mrs
 # 广告拦截
-ruleset=🛑 广告拦截,ads,https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/ads.srs#srs,https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/ads.mrs#mrs
+ruleset=🛑 广告拦截,ads,https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/ads.srs,https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/ads.mrs
 # Trackers拦截
-ruleset=🛑 Trackers,trackerslist,https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/trackerslist.srs#srs,https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/trackerslist.mrs#mrs
+ruleset=🛑 Trackers,trackerslist,https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/trackerslist.srs,https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/trackerslist.mrs
 # Telegram
-ruleset=📲 电报消息,telegram,https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/telegram.srs#srs,https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/telegram.mrs#mrs
+ruleset=📲 电报消息,telegram,https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/telegram.srs,https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/telegram.mrs
 #加密货币
-ruleset=💰 加密货币,crypto,https://github.com/KaringX/karing-ruleset/raw/refs/heads/sing/ACL4SSR/Ruleset/Crypto.srs#srs,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Ruleset/Crypto.list#mrs
+ruleset=💰 加密货币,crypto,https://github.com/KaringX/karing-ruleset/raw/refs/heads/sing/ACL4SSR/Ruleset/Crypto.srs,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Ruleset/Crypto.list
 # AI
-ruleset=💬 智能Ai,ai,https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/ai.srs#srs,https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/ai.mrs#mrs
+ruleset=💬 智能Ai,ai,https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/ai.srs,https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/ai.mrs
 # 微软服务
-ruleset=Ⓜ️ 微软服务,microsoft-cn,https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/microsoft-cn.srs#srs,https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/microsoft-cn.mrs#mrs
+ruleset=Ⓜ️ 微软服务,microsoft-cn,https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/microsoft-cn.srs,https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/microsoft-cn.mrs
 # 苹果服务
-ruleset=🍎 苹果服务,apple-cn,https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/apple-cn.srs#srs,https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/apple-cn.mrs#mrs
+ruleset=🍎 苹果服务,apple-cn,https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/apple-cn.srs,https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/apple-cn.mrs
 # 谷歌服务
-ruleset=📢 谷歌服务,google-cn,https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/google-cn.srs#srs,https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/google-cn.mrs#mrs
+ruleset=📢 谷歌服务,google-cn,https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/google-cn.srs,https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/google-cn.mrs
 # 油管
-ruleset=📹 油管视频,youtube,https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/youtube.srs#srs,https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/youtube.mrs#mrs
+ruleset=📹 油管视频,youtube,https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/youtube.srs,https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/youtube.mrs
 # 奈飞
-ruleset=🎥 奈飞视频,netflix,https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/netflix.srs#srs,https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/netflix.mrs#mrs
+ruleset=🎥 奈飞视频,netflix,https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/netflix.srs,https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/netflix.mrs
 # Disney+
-ruleset=📺 Disney+,disney,https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/disney.srs#srs,https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/disney.mrs#mrs
+ruleset=📺 Disney+,disney,https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/disney.srs,https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/disney.mrs
 # AppleTV
-ruleset=📺 AppleTV,appletv,https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/appletv.srs#srs,https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/appletv.mrs#mrs
+ruleset=📺 AppleTV,appletv,https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/appletv.srs,https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/appletv.mrs
 # 国外媒体
-ruleset=🌍 国外媒体,media,https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/media.srs#srs,https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/media.mrs#mrs
+ruleset=🌍 国外媒体,media,https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/media.srs,https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/media.mrs
 # 国内媒体
-ruleset=🌏 国内媒体,chinamedia,https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/chinamedia.srs#srs,https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/chinamedia.mrs#mrs
+ruleset=🌏 国内媒体,chinamedia,https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/chinamedia.srs,https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/chinamedia.mrs
 # 游戏平台
-ruleset=🎮 游戏平台,games,https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/games.srs#srs,https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/games.mrs#mrs
+ruleset=🎮 游戏平台,games,https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/games.srs,https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/games.mrs
 # 国内域名
-ruleset=🎯 全球直连,cn,https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/cn.srs#srs,https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/cn.mrs#mrs
+ruleset=🎯 全球直连,cn,https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/cn.srs,https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/cn.mrs
 # 国内IP
-ruleset=🎯 全球直连,cnip,https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/cnip.srs#srs,https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/cnip.mrs#mrs
+ruleset=🎯 全球直连,cnip,https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/cnip.srs,https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/cnip.mrs
 # 代理（GFW/国外）
-ruleset=🚀 节点选择,proxy,https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/proxy.srs#srs,https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/proxy.mrs#mrs
+ruleset=🚀 节点选择,proxy,https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/proxy.srs,https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/proxy.mrs
 #兜底
 ruleset=🐟 漏网之鱼,MATCH
 
