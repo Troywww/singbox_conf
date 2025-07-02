@@ -8,7 +8,7 @@ ruleset=🛑 广告拦截,ads,https://github.com/DustinWin/ruleset_geodata/relea
 # Trackers拦截
 ruleset=🛑 Trackers,trackerslist,https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/trackerslist.srs,https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/trackerslist.mrs
 # Telegram
-ruleset=📲 电报消息,telegram,https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/telegramip.srs,https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/telegram.mrs
+ruleset=📲 电报消息,telegram,https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/telegramip.srs,https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/telegramip.mrs
 #加密货币
 ruleset=💰 加密货币,crypto,https://github.com/KaringX/karing-ruleset/raw/refs/heads/sing/ACL4SSR/Ruleset/Crypto.srs,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Ruleset/Crypto.list
 # AI
