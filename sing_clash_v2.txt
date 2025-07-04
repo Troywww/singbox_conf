@@ -20,7 +20,7 @@ ruleset=🍎 苹果服务,apple-cn,https://github.com/DustinWin/ruleset_geodata/
 # 谷歌服务
 ruleset=📢 谷歌服务,google-cn,https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/google-cn.srs,https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/google-cn.mrs
 # 油管
-ruleset=📹 油管视频,youtube,https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/youtube.srs,https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/youtube.mrs
+ruleset=📹 油管视频,youtube,https://raw.githubusercontent.com/KaringX/karing-ruleset/refs/heads/sing/geo/geosite/youtube.json#singbox,https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/youtube.mrs
 # 奈飞
 ruleset=🎥 奈飞视频,netflix,https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/netflix.srs,https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/netflix.mrs
 # Disney+
